@@ -1,0 +1,99 @@
+:root{
+  --primary-color: #0a3556;
+  --secondary-color: #d92626;
+  --dark-color: #292929;
+  --white-color: #e7e7e7;
+}
+
+.odd{
+  font-weight: 100;
+}
+
+.even{
+  font-weight: bold;
+  font-size: large;
+}
+
+.logoFont{
+  font-family: embury-text,serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+Body{
+  color:var(--dark-color);
+}
+
+nav{
+  background-color: var(--dark-color);
+  font-family: embury-text, serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+footer{
+  background-color: var(--dark-color);
+}
+
+h1,h2,h3,h4,h5,h6,p{
+  color: var(--primary-color);
+}
+
+h1,h2,h3,h5,p{
+  color: var(--primary-color);
+  font-family: embury-text,serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+footer{
+  padding-right: 1rem;
+}
+
+footer .social>a{
+  color: var(--white-color);
+  opacity: 0.75;
+}
+
+footer .social>a:hover{
+  opacity: 0.9;
+  color: var(--secondary-color);
+}
+
+.bsicon{
+  color:purple;
+}
+
+.jsicon{
+  color:rgb(226,211,4);
+}
+
+.html5icon{
+  color:orangered;
+}
+
+.cssicon{
+  color:rgb(11,82,214);
+}
+
+.checklist >li i{
+  color: var(--secondary-color);
+}
+
+code[class*="language-"],
+  pre[class*="language-"] {
+    white-space: pre-wrap;
+    word-break: break-all;
+    word-wrap: break-word;
+  }
+
+main>.container {
+  padding: 60px 15px 0;
+  margin-bottom: 5rem;
+}
+.sticky-footer {
+  position: sticky;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
